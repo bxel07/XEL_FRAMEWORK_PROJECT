@@ -1,0 +1,27 @@
+{
+    "name": "xel_tech/xel_framework",
+    "description": "example mvc native",
+    "type": "project",
+    "authors": [
+        {
+            "name": "bxel07",
+            "email": "yogipratama.ut@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "xel_tech\\xel_framework\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "xel_tech\\xel_framework\\" : "test"
+        }
+    }
+}
